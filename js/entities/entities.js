@@ -13,7 +13,7 @@ var BirdEntity = me.ObjectEntity.extend({
     this.gravityForce = 0.01;
     this.maxAngleRotation = Number.prototype.degToRad(30);
     this.maxAngleRotationDown = Number.prototype.degToRad(90);
-    this.renderable.addAnimation("flying", [0, 1, 2]);
+    this.renderable.addAnimation("flying", [0, 1, 2, 3]);
     this.renderable.addAnimation("idle", [0]);
     this.renderable.setCurrentAnimation("flying");
     this.animationController = 0;
